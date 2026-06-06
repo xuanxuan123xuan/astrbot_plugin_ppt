@@ -1,4 +1,4 @@
-name: astrbot_plugin_courseware_summarizer
+name: astrbot_plugin_ppt
 display_name: 课件自动总结
 short_desc: 接收 PPT/PDF/DOCX 课件后自动提取内容并由 LLM 生成结构化总结，支持本地关键词分析
 author: wuxuan

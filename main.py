@@ -1,6 +1,6 @@
 """
-astrbot_plugin_courseware_summarizer
-=====================================
+astrbot_plugin_ppt
+=================
 自动解析 PPTX / PDF / DOCX 课件并生成结构化总结。
 
 触发方式：
@@ -110,11 +110,11 @@ def extract_text(file_path: str, max_chars: int = _MAX_CHARS) -> str:
 # ---- 插件主类 ----
 
 @register(
-    "astrbot_plugin_courseware_summarizer",
+    "astrbot_plugin_ppt",
     "wuxuan",
     "自动解析 PPT/PDF/DOCX 课件并生成结构化总结，支持关键词分析",
     "1.0.0",
-    "https://github.com/wuxuan/astrbot_plugin_courseware_summarizer",
+    "https://github.com/wuxuan/astrbot_plugin_ppt",
 )
 class CoursewareSummarizer(Star):
     def __init__(self, context: Context):
