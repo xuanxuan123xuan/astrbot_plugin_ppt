@@ -1,6 +1,10 @@
-name: helloworld # 插件唯一识别名，以 astrbot_plugin_ 前缀开头
-display_name: helloworld # 用于展示的名字，可以是方便人类阅读的名字（需要版本 >= v4.5.0，低版本不会报错，请放心填写）
-desc: AstrBot 插件示例。 # 插件简短描述
-version: v1.3.0 # 插件版本号。格式：v1.1.1 或者 v1.1
-author: Soulter # 作者
-repo: https://github.com/Soulter/helloworld # 插件的仓库地址
+name: astrbot_plugin_courseware_summarizer
+display_name: 课件自动总结
+short_desc: 接收 PPT/PDF/DOCX 课件后自动提取内容并由 LLM 生成结构化总结，支持本地关键词分析
+author: wuxuan
+version: 1.0.0
+desc: |
+  自动解析用户上传的 PPTX、PDF、DOCX 课件文件，提取文本内容，
+  调用机器人已配置的 LLM 生成包含主题识别、关键知识点、结构大纲、
+  内容总结的结构化输出。同时提供 /kw 指令进行本地 jieba 关键词提取。
+astrbot_version: ">=4.16,<5"
