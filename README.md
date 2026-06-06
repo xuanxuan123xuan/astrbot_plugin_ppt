@@ -1,13 +1,4 @@
----
-AIGC:
-    Label: "1"
-    ContentProducer: 001191440300708461136T1XGW3
-    ProduceID: b5d082555c22e558e7be462558d09143_5380518061b311f1832e5254006c9bbf
-    ReservedCode1: OPyPWVuowmH4igvqrWAW5gJPiftgeW/cnHOlLkFjmeQ+pxZvTfGOYbkQx/O4uRsjS/qVqBDtbeFMCNAZC87iiv5al83jKLNF14IphUAE8Ad4BCXRUWetZG9gS/gi3tcY7P0uzTsAd7yOoWbJ0lYV48wlufV3sKkCTvQGjgx7LiFOOXqK94DQWKMpL40=
-    ContentPropagator: 001191440300708461136T1XGW3
-    PropagateID: b5d082555c22e558e7be462558d09143_5380518061b311f1832e5254006c9bbf
-    ReservedCode2: OPyPWVuowmH4igvqrWAW5gJPiftgeW/cnHOlLkFjmeQ+pxZvTfGOYbkQx/O4uRsjS/qVqBDtbeFMCNAZC87iiv5al83jKLNF14IphUAE8Ad4BCXRUWetZG9gS/gi3tcY7P0uzTsAd7yOoWbJ0lYV48wlufV3sKkCTvQGjgx7LiFOOXqK94DQWKMpL40=
----
+
 
 # 课件自动总结插件
 
@@ -27,13 +18,13 @@ AstrBot 插件。接收 PPTX / PDF / DOCX 课件文件后，自动提取文本�
 
 ```bash
 cd AstrBot/data/plugins
-git clone https://github.com/wuxuan/astrbot_plugin_courseware_summarizer
+git clone https://github.com/xuanxuan123xuan/astrbot_plugin_ppt.git
 ```
 
 ### 2. 安装依赖
 
 ```bash
-pip install -r AstrBot/data/plugins/astrbot_plugin_courseware_summarizer/requirements.txt
+pip install -r AstrBot/data/plugins/astrbot_plugin_ppt/requirements.txt
 ```
 
 或在 AstrBot WebUI → 插件管理 → 找到插件 → 点击安装依赖。
