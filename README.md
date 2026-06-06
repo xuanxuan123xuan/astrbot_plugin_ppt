@@ -72,5 +72,4 @@ AstrBot LLM 生成总结 → 回复用户
 
 ## 平台支持
 
-所有 AstrBot 已适配的消息平台（QQ / Telegram / 微信 / 飞书 / 钉钉 等）。
-*（内容由AI生成，仅供参考）*
+所有 AstrBot 已适配的消息平台（QQ / Telegram / 微信 / 飞书 / 钉钉 等）
